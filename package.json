@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha ./**/*.spec.js"
+    "test": "node ./node_modules/mocha/bin/mocha --reporter=nyan ./**/*.spec.js"
   },
   "author": "Matt Stuhring <mstuhring@tablesafe.com> (http://www.tablesafe.com)",
   "license": "ISC",
