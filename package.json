@@ -1,10 +1,10 @@
 {
-  "name": "battleship-unit-tests",
+  "name": "js-unit-testing",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha"
+    "test": "node ./node_modules/mocha/bin/mocha ./**/*.spec.js"
   },
   "author": "Matt Stuhring <mstuhring@tablesafe.com> (http://www.tablesafe.com)",
   "license": "ISC",
